@@ -1,5 +1,3 @@
-# bitcoin-churn-logs
-
 This repository contains logs from experiments related to the research about churn in the Bitcoin network.
 
 ### How to read the log files? ###
@@ -37,3 +35,16 @@ Event                | Meaning | Information provided
 1. logNode_node014.txt
 2. logNode_node015.txt
 3. logNode_node016.txt
+
+----------
+If you find this data useful, please cite
+```
+@inproceedings{imtiaz2019churn,
+  title={Churn in the Bitcoin Network: Characterization and impact},
+  author={Imtiaz, Muhammad Anas and Starobinski, David and Trachtenberg, Ari and Younis, Nabeel},
+  booktitle={2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
+  pages={431--439},
+  year={2019},
+  organization={IEEE}
+}
+```
