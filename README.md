@@ -1,58 +1,10 @@
-Experiment logs for different experiments. If you find these logs helpul, please cite our work.
+This repository contains logs from experiments related to research about churn in the Bitcoin Unlimited network which can be read [here](https://anasimtiaz.pk/downloadables/thesis.pdf).
 
-Links to log files and corresponding publications:
+The directory structure is as follows. Each subdirectory contains its own `README` file.
 
- - [TNSM-Orphan](https://github.com/nislab/bitcoin-logs/tree/tnsm-orphan) ([Investigating Orphan Transactions in the Bitcoin Network](https://doi.org/10.1109/TNSM.2021.3056949))
- ```
- @article{imtiaz2021orphan,
-     author={Imtiaz, Muhammad Anas and Starobinski, David and Trachtenberg, Ari},
-     journal={IEEE Transactions on Network and Service Management}, 
-     title={Investigating Orphan Transactions in the Bitcoin Network}, 
-     year={2021},
-     volume={18},
-     number={2},
-     pages={1718-1731},
-     doi={10.1109/TNSM.2021.3056949}
- }
- ```
-
- - [TNSM-Churn](https://github.com/nislab/bitcoin-logs/tree/tnsm-churn) ([Churn in the Bitcoin Network](https://doi.org/10.1109/TNSM.2021.3050428))
- ```
- @article{imtiaz2021churn,
-     author={Imtiaz, Muhammad Anas and Starobinski, David and Trachtenberg, Ari and Younis, Nabeel},
-     journal={IEEE Transactions on Network and Service Management}, 
-     title={Churn in the Bitcoin Network}, 
-     year={2021},
-     volume={18},
-     number={2},
-     pages={1598-1615},
-     doi={10.1109/TNSM.2021.3050428}
- }
- ```
-
- - [ICBC2020](https://github.com/nislab/bitcoin-logs/tree/icbc2020) ([Characterizing Orphan Transactions in the Bitcoin Network](https://doi.org/10.1109/ICBC48266.2020.9169449))
- ```
-@inproceedings{imtiaz2020orphan,
-     author={Imtiaz, Muhammad Anas and Starobinski, David and Trachtenberg, Ari},
-     booktitle={2020 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)}, 
-     title={Characterizing Orphan Transactions in the Bitcoin Network}, 
-     year={2020},
-     volume={},
-     number={},
-     pages={1-9},
-     doi={10.1109/ICBC48266.2020.9169449}
-}
- ```
- - [ICBC2019](https://github.com/nislab/bitcoin-logs/tree/icbc2019) ([Churn in the Bitcoin Network: Characterization and Impact](https://doi.org/10.1109/BLOC.2019.8751297))
- ```
-@inproceedings{imtiaz2019churn,
-     author={Imtiaz, Muhammad Anas and Starobinski, David and Trachtenberg, Ari and Younis, Nabeel},
-     booktitle={2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)}, 
-     title={Churn in the Bitcoin Network: Characterization and Impact}, 
-     year={2019},
-     volume={},
-     number={},
-     pages={431-439},
-     doi={10.1109/BLOC.2019.8751297}
-}
- ```
+Folder | Content
+-------|--------
+[`ao`](https://github.com/nislab/bitcoin-logs/tree/wip/ao) | Experimental logs for nodes in the `always on` regime
+[`at`](https://github.com/nislab/bitcoin-logs/tree/wip/at) | Experimental logs regarding additional full transactions in compact blocks
+[`pc`](https://github.com/nislab/bitcoin-logs/tree/wip/pc) | Experimental logs for nodes in the `periodic churn` regime
+[`sc`](https://github.com/nislab/bitcoin-logs/tree/wip/sc) | Experimental logs for nodes in the `statistical churn` regime
